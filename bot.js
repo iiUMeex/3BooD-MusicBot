@@ -271,3 +271,8 @@ client.on('message', message => {
         message.channel.sendMessage(':ping_pong: Pong! In `' + `${client.ping}` + ' ms`');
     }
 });
+
+// playing
+client.on('ready', () => {                           
+client.user.setGame(`.help`,'https://www.twitch.tv/on 1 server | $play Music'); 
+ });
