@@ -274,5 +274,5 @@ client.on('message', message => {
 
 // playing
 client.on('ready', () => {                           
-client.user.setGame(`.help`,'https://www.twitch.tv/on 1 server | $play Music'); 
+client.user.setGame(`on 1 server | $play Music`,'https://www.twitch.tv/on 1 server | $play Music'); 
  });
