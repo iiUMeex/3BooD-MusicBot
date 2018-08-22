@@ -304,3 +304,9 @@ client.on('message', message => {
 client.on('ready', () => {                           
 client.user.setGame(`on 1 server | $play Music`,'https://www.twitch.tv/on 1 server | $play Music'); 
  });
+
+exports.TOKEN = '$';
+
+client.login(process.env.BOT_TOKEN);
+
+exports.GOOGLE_API_KEY = 'AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8';//لا تجيه
