@@ -15,7 +15,6 @@ client.on('message', msg => {
 client.login(process.env.BOT_TOKEN);  //لا تحط التوكن حقك هنا
 
 const { Client, Util } = require('discord.js');
-const Discord = require("discord.js");
 const { TOKEN, PREFIX, GOOGLE_API_KEY } = require('./config');
 const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
