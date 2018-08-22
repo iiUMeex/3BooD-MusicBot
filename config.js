@@ -1,4 +1,4 @@
-exports.TOKEN = '';
+exports.TOKEN = process.env.BOT_TOKEN;
 
 exports.PREFIX = '$';
 
