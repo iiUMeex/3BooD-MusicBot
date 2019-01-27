@@ -99,7 +99,7 @@ client.on('message', async msg => { // eslint-disable-line
 					var videos = await youtube.searchVideos(searchString, 5);
 					let index = 0;
 					const embed1 = new Discord.RichEmbed()
-			        .setAuthor(`Music ♫`, `https://discordapp.com/channels/479344755994656768/480743594475651102/539050199885021185`)
+			        .setAuthor(`Music ♫`, `https://cdn.discordapp.com/attachments/480743594475651102/539050199885021184`)
 			        .setDescription(`__Choose the video number__ :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 					.setFooter("")
