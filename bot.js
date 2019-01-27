@@ -306,8 +306,7 @@ client.user.setGame(`Music ♫ `,'https://www.twitch.tv/on 1 server | $play (Mus
                                                  });
             
                                                   });
-   kboosh.on("message", message => {
-       var prefix = "$";
+   client.on("message", message => {
  
              var args = message.content.substring(prefix.length).split(" ");
                 if (message.content.startsWith(prefix + "bc")) {
