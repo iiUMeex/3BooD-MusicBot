@@ -303,9 +303,6 @@ client.on('ready', () => {
 client.user.setGame(`Music ♫ `,'https://www.twitch.tv/on 1 server | $play (Music)'); 
  });
 
-                                                 });
-            
-                                                  });
    client.on("message", message => {
  
              var args = message.content.substring(prefix.length).split(" ");
